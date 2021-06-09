@@ -17,7 +17,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="description" content="Learn how to use the Firebase platform on the Web">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Friendly Chat</title>
+  <title>Ateneo</title>
 
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
@@ -61,7 +61,7 @@
   <header class="mdl-layout__header mdl-color-text--white mdl-color--light-blue-700">
     <div class="mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-grid">
       <div class="mdl-layout__header-row mdl-cell mdl-cell--12-col mdl-cell--12-col-tablet mdl-cell--12-col-desktop">
-        <h3><i class="material-icons">chat_bubble_outline</i> Friendly Chat</h3>
+        <h3><i class="material-icons">chat_bubble_outline</i> Ateneo Books</h3>
       </div>
       <div id="user-container">
         <div hidden id="user-pic"></div>
@@ -75,6 +75,75 @@
       </div>
     </div>
   </header>
+
+  <br>
+
+  <h5 class="books-title">Estos son los libros que tenemos disponibles</h5>
+
+  <table class="main-table">
+    <tr>
+      <th>Codigo</th>
+      <th>Descripcion Producto</th>
+      <th>Precio</th>
+      <th>Stock</th>
+      <th>Categoria</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Romantico</td>
+      <td>50</td>
+      <td>100</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Accion</td>
+      <td>12</td>
+      <td>90</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Terror</td>
+      <td>13</td>
+      <td>80</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Romantico</td>
+      <td>10</td>
+      <td>99</td>
+      <td>0</td>
+    </tr>
+  </table>
+
+  <br>
+
+  <div>
+    <h5 class="form-title">Añade tus datos en nuestro formularios para futuras ofertas</h5>
+
+      <form class="form-class" action="">
+        <label for="fname">Código:</label><br>
+        <input type="text" id="fname" name="fname" value="1"><br>
+      
+        <label for="lname">Descripción del producto:</label><br>
+        <input type="text" id="lname" name="lname" value="Romantico"><br>
+      
+        <label for="lname">Precio:</label><br>
+        <input type="text" id="lname" name="lname" value="50"><br>
+      
+        <label for="lname">Stock:</label><br>
+        <input type="text" id="lname" name="lname" value="100"><br>
+      
+        <label for="lname">Categoria:</label><br>
+        <input type="text" id="lname" name="lname" value="0">
+      
+        <div><input type="submit" value="Enviar"></div>
+      </form>
+  </div>
+
+
 
   <main class="mdl-layout__content mdl-color--grey-100">
     <div id="messages-card-container" class="mdl-cell mdl-cell--12-col mdl-grid">
@@ -109,13 +178,6 @@
 
     </div>
   </main>
-
-  <div id="cajon">
-    <!--div para establecer un bloque donde irán el párrafo con el texto y la imagen cabecera AZUL-->
-    <img id="logo" src="imagenes/logo.png" alt=" " />
-    <p id="parrafo" style="color:#FF0A">¡¡¡ CONOCE NUESTRAS OFERTAS !!!</p>
-    <!-- codigo para los botones trato de quitar o añadir logo -->
-  </div>
   
 </div>
 

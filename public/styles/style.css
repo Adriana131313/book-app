@@ -11,6 +11,16 @@ p {
   font-family: verdana;
   font-size: 19px;
 }
+
+table th{
+  border: 1px solid black;
+  margin: 5px;
+}
+
+table td{
+  border: 1px solid black;
+  margin: 5px;
+}
    
 #cajon { 
   background-color: #6B8E23; 
@@ -67,4 +77,36 @@ footer {
   padding: 5px;
   text-align: center;
   color: white;
+}
+
+.books-title {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+}
+
+.main-table{
+  width: 80%;
+  margin: auto;
+}  
+
+.form-title{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+}
+
+.form-class {
+  width: 30%;
+  margin: auto;
+  border: 1px solid black;
+}
+
+form label{
+  margin: 10px;
+}
+
+form input {
+  margin: 10px;
 }
