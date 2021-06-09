@@ -1,0 +1,70 @@
+body {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 19px;
+}
+   
+#cajon { 
+  background-color: #6B8E23; 
+  padding:15px;  
+}
+
+#logo { 
+  width:17%; 
+  border-radius:1px;
+  margin-top:20px; 
+  margin-left:20px;  
+}
+
+#parrafo { 
+  margin-left:20px;
+  text-align: center;      
+}
+
+#tabla {
+  display:table;
+  width:95%;
+  margin:auto;
+}
+
+.celda1, .celda2, .celda3, .celda4 {display:table-cell; padding:10px;margin:15px;}
+
+.celda1 {background-color:lightgrey;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda2 {background-color:white;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda3 {background-color:lightgrey;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda4 {background-color:white;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+
+#tabla2{display:table;width:95%;margin:auto;}
+
+.celda5, .celda6, .celda7, .celda8 {display:table-cell; padding:10px;margin:15px;}
+
+.celda5 {background-color:white;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda6 {background-color:lightgrey;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda7 {background-color:white;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+.celda8 {background-color:lightgrey;border-radius:10px;border:1px white solid;border-color: #6B8E23;}
+
+
+#fin {display:table;width:100%;margin:auto;background-color:#6B8E23;text-align: center;}
+
+/* Style the footer */
+footer {
+  background-color: #6B8E23;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
