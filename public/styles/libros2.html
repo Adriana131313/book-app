@@ -1,0 +1,149 @@
+<!DOCTYPE html>  <!-- define tipo de documento -->
+<html>
+    
+    <html lang="es"> <!-- Atributo que establece el idioma-->
+       
+        <!--title, meta, link, style, script, base-->
+     
+    <!-- define metadata-->
+        <meta charset="utf-8"> <!-- Codificación de caracteres -->
+        <meta name="Descripcion" content="PaginaLibros">
+        <meta name="autor" content="Libros">
+        <meta http-equiv="refresh" content="30"> <!-- refresca la pagina cada 30 segundo-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<base href="https://www.google.es" target="_blank"> especifica la dirección URL base que se utilizará para todas las direcciones URL relativas contenidas dentro de un documento-->
+    
+         <link rel="stylesheet" href="CSS/hoja.css"><!--Relación de la hoja de estilo de CSS con el proyecto HTML-->
+       
+<head>
+    
+     <!-- aqui va el codigo de firebase -->
+	
+<script src="/__/firebase/8.5.0/firebase-app.js"></script>
+<script src="/__/firebase/8.5.0/firebase-auth.js"></script>
+<script src="/__/firebase/8.5.0/firebase-storage.js"></script>
+<script src="/__/firebase/8.5.0/firebase-messaging.js"></script>
+<script src="/__/firebase/8.5.0/firebase-firestore.js"></script>
+<script src="/__/firebase/8.5.0/firebase-performance.js"></script>
+  
+<h3><b> CONOCE NUESTRA PÁGINA DONDE ENCONTRARAS LOS MEJORES LIBROS </b></h3>
+    
+<br>   
+    
+<title>Libros</title>  <!-- Título página -->
+      
+<div id="cajon"><!--div para establecer un bloque donde irán el párrafo con el texto y la imagen cabecera AZUL-->
+               
+<img id="logo" src="imagenes/logo.png" alt=" "/> <p id="parrafo" style="color:#FF0A">¡¡¡ CONOCE NUESTRAS OFERTAS !!!</p> 
+                 
+</div>
+</head>
+                        
+<body>      
+<!-- estructura del cuadro de la izquierda --> 
+            
+<ul id="tabla">
+    <!-- lado izquierdo de mi tabla --> 
+
+<li class="celda1">
+<ul>
+<img id="sasha1.jpg" src="imagenes/sasha1.png" alt=" " width="270" height="300" /> 
+<p><b>LAS RECETAS DE @SASCHA FITNESS</b><p>    
+<p> Este libro recopila las opciones más exitosas que circulan en las redes y algunas nuevas propuestas. </p>
+<p>El lector no sólo encontrará recetas para desayunos, meriendas, platos fuertes y postres, sino también información sobre las propiedades de los alimentos y el funcionamiento de nuestro cuerpo.</p>
+<p>Para dar a conocer a esta hermosa y muy inteligente mujer le coloco algunos de sus logros: madre, licenciada en administración,</p>
+<p> Certificada como Personal Fitness Trainer, con un master en Fitness Nutritionist de la International Sports Sciences Association (ISSA), grados obtenidos en Estados Unidos y, además, certificada en nutrición deportiva, Sascha, se ha dado a la tarea de aconsejar a las personas a conseguir una mejor calidad de vida por medio de una alimentación saludable y ejercicio.</p>
+</ul>
+
+</li>   
+   <!-- lado derecho de mi tabla --> 
+<li class="celda2">
+<ul>
+<img id="libro1.jpg" src="imagenes/libro1.png" alt=" " width="270" height="300" />
+<p><b>EL LIBRO DE RELACIONES</b><p>
+<p>¿Por qué siempre elegimos parejas que se parecen entre sí? ¿Cuáles son nuestros patrones, nuestros bloqueos emocionales, nuestros verdaderos deseos y qué tienen que ver los astros en todo ello? En este libro,</p>
+<p>la astróloga más celebrada de las redes habla sin tapujos sobre lo bueno y lo no tan bueno de las relaciones humanas. </p>
+
+<p>Con divertidas anécdotas, lecciones astrológicas y ejercicios de coaching, este libro se convertirá en un manual de consulta para amar mejor y atraer personas que estén cada vez más en línea con lo que queremos ser. </p>
+</ul>
+</li>
+<li class="celda3">
+<ul>
+<img id="eleonor.jpg" src="imagenes/eleonor.png" alt=" " width="270" height="300" /> 
+<p><b>ELEANOR Y PARK</b><p>
+<p>Para todos aquellos que quedaron fascinados por Las ventajas de ser un marginado. Una historia de amor entre dos outsiders lo bastante inteligentes como para saber que el primer amor nunca es para siempre,  </p>
+<p>pero lo suficientemente valientes como para intentarlo. -Bono conoció a la que sería su mujer en el instituto -dijo Park.</p>
+<p>Todo empieza cuando Park accede a que Eleanor se siente a su lado en el autobús del instituto el primer día de clase. Al principio ni siquiera se hablan, pero poco a poco comparten sus hobbies y empiezan una relación de amistad... para terminar enamorándose de la forma en que te enamoras la primera vez, cuando eres joven, y sientes que no tienes nada </p>
+</ul>
+</li>
+<li class="celda4">
+<ul>
+<img id="imperio.jpg" src="imagenes/imperio.png" alt=" " width="270" height="300" /> 
+<p><b>IMPERIO FINAL</b><p>
+<p> Durante mil años han caído las cenizas y nada florece. Durante mil años los skaa han sido esclavizados y viven sumidos en un miedo inevitable.  </p> 
+<p>Durante mil años el Lord Legislador reina con un poder absoluto gracias al terror, a sus poderes e inmortalidad. Le ayudan «obligadores» e «inquisidores»,</p>
+<p>junto a la poderosa magia de la «alomancia». Pero los nobles, con frecuencia, han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborns). Ahora, Kelsier, el «superviviente», </p>
+
+<p>el único que ha logrado huir de los Pozos de Hathsin, ha encontrado a Vin, una pobre chica skaa con mucha suerte </p>
+
+</ul>
+</li>
+</ul>
+<!-- TERCER BLOQUE con parrafo divido en 3 partes con mi tabla --> 
+<div>
+<ul id="tabla2">
+<li class="celda5">
+<ul>
+<img id="dosmetros.jpg" src="imagenes/dosmetros.png" alt=" " width="260" height="290" />
+ <p><b>A DOS METROS DE TI</b><p>
+<p> Necesitamos estar cerca de las personas que queremos casi tanto como el aire que respiramos.  </p>
+<p>A Stella Grant le gusta tener el control, a pesar de no poder dominar sus propios pulmones, que la han tenido en el hospital la mayor parte de su vida. Por encima de todo, Stella necesita </p>
+<p> controlar su espacio para mantenerse alejada de cualquier persona o cosa que pueda transmitirle una infección y poner en peligro su trasplante de pulmón. Dos metros de distancia. </p>
+<p> Sin excepciones. En cuanto a Will Newman, lo único que quiere controlar es cómo salir de este hospital. No le importan sus tratamientos, o si hay una nueva medicación en ensayo clínico. Pronto cumplirá dieciocho años Y desea ir a ver el mundo, no solo sus hospitales.</p>
+</ul>
+</li>
+    
+   <!-- lado derecho de mi tabla --> 
+<li class="celda6">
+<ul>
+<img id="breve.jpg" src="imagenes/breve.png" alt=" " width="270" height="300" />
+<p><b>BREVE HISTORIA DE CASI TODO </b><p>
+<p> Bill Bryson nos propone un fascinante y entretenidísimo recorrido </p>
+<p>por la historia del universo que nos rodea y los conocimientos que nos han llevado a comprenderlo un poco mejor </p>
+<p> UN BESTSELLER INTERNACIONAL QUE HAVENDIDO MÁS DE 150.000 EJEMPLARES EN ESPAÑA </p>
+
+</ul>
+</li>
+<li class="celda7">
+<ul>
+<img id="tierra1.jpg" src="imagenes/tierra1.png" alt=" " width="270" height="300"/>
+<p><b>TIERRA</b><p> 
+<p>El problema de buscar la verdad es encontrarla y no saber qué hacer con ella Una novela que cambiará tu forma de ver el mundo Querido lector,</p> 
+<p>Tienes en tus manos una novela que plantea preguntas difíciles de responder; una novela que habla sobre esas verdades que, a pesar de buscar, preferiríamos no encontrar. </p>
+<p>No puedo explicarte de qué trata este libro porque eso rompería su magia, pero te aseguro que, cuando acabes de leerlo, verás el mundo de forma distinta. </p>
+<p>Intenta entender qué ocurrió entre la Gran Explosión y el surgimiento de la civilización, cómo pasamos de la nada a lo que ahora somos. El autor aborda materias tan terriblemente arduas como geología, química y física, pero lo hace de forma tal que resultan comprensibles y amenas.</p>
+
+</ul>
+</li>
+<li class="celda8">
+<ul>
+	<img id="PRUEBA2.jpg" src="imagenes/PRUEBA2.png" alt=" " width="270" height="300" />
+  <p><b>EL ROSTRO DE LAS EMOCIONES</b><p>
+<p> ¿Qué hace que se disparen las emociones? ¿Es posible controlarlas? ¿Por qué unas veces somos más susceptibles que otras? </p> 
+<p>¿Por qué algunas personas saben enmascarar sus emociones y otras no pueden ocultarlas?.</p>
+<p> Las emociones desempeñan un papel vital en nuestras relaciones con los demás y Paul Ekman nos invita a realizar un viaje fascinante a través de ellas: nos explica cuándo y por qué expresamos lo que sentimos, </p>
+<p>qué cambios se producen en el interior de nuestro cuerpo y qué señales emitimos a través del lenguaje de los gestos y de la voz. </p>
+
+</ul>
+</li>
+</ul>
+<!-- TERCER BLOQUE con parrafo divido en 3 partes con mi tabla --> 
+
+</head>
+<body>
+
+<footer>
+<p>Unete a nosotros y conoces mas acerca del mundo de la lectura</p>
+</footer> 
+</body>
+</html>
